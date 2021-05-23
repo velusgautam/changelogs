@@ -257,7 +257,7 @@ Make MultiSelect clearable opt-in
 - Refactor createAsyncActionsCreators
 - Fix linting error
 - add pr template
-- 🐛 FIX: changelog.sh don't display merges with empty bodies
+- FIX: changelog.sh don't display merges with empty bodies
 - Use checkboxes with autocomplete multiple
 
 # RELEASE 26-11-2020
