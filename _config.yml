@@ -6,3 +6,5 @@ relative_links:
 include:
   - sonic-studio/CHANGELOG.md
   - README.md
+
+theme: jekyll-theme-minimal
