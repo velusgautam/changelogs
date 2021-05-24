@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eae9e4;
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-home {
+  font-size: 64px;
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 200;
+}
+.header-home a,
+.header a {
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  align-items: center;
+}
+
+.header-home a:hover,
+.header a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.header-home ::before {
+  content: '';
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  background-size: 64px 64px;
+  background-image: url('./sonic-logo.svg');
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+.header ::before {
+  content: '';
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  background-size: 32px 32px;
+  background-image: url('./sonic-logo.svg');
+  background-repeat: no-repeat;
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  min-width: 1024px;
+  max-width: 1024px;
+  text-align: left;
+}
+
+.wrapper h2,
+h1 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: 10px;
+}
+
+.wrapper ul {
+  /* background-color: #fcfcfb;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12); */
+}
+
+.wrapper ul li {
+  list-style-type: none;
+  background-color: #fcfcfb;
+  margin: 5px 0px;
+  padding: 11px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper ul li::before {
+  content: url('./tick.svg');
+  height: 24px;
+  margin-right: 10px;
+}
+
+.wrapper ul li a {
+  font-size: 18px;
+  margin-right: 10px;
+}

@@ -1,3 +1,5 @@
-## Welcome to DISCOVERY NETWORK SWEDEN Release Board
+---
+layout: index
+---
 
 - [SONIC STUDIO RELEASE BOARD](./sonic-studio/CHANGELOG.html)
